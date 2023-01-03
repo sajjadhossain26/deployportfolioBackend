@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Play", sans-serif !important;
+}
+
+a {
+  color: var(--TextColor);
+}
+button {
+  font-family: "Play", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --BgPrimary: #100028;
+  --BgSecondary: #1a083d;
+  --BgWhite: #fff;
+  --TextColor: #fff;
+  --BorderColor: #00bfe7;
+  --IconColor: #00bfe7;
+  --TextGray: #d7d7d7;
+}
+.dark {
+  --BgPrimary: #eb7966;
+  --BgSecondary: #9b524c;
+  --BgWhite: black;
+  --TextColor: white;
+  --BorderColor: white;
+  --IconColor: #00bfe7;
+  --TextGray: white;
+}
+
+p,
+span {
+  font-family: "Play", sans-serif !important;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: var(--TextGray) !important;
+}
+body {
+  background-color: var(--BgSecondary);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
